@@ -1,0 +1,10 @@
+env: "local"
+mysql:
+  host: "127.0.0.1"
+  port: 3306
+  user: "root"
+  password: ""
+http_server:
+  addr : "localhost:8080"
+  timeout :  4s
+  idle_timeout: 60s
